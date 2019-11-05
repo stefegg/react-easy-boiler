@@ -13,7 +13,9 @@
     "test:cover": "yarn run test --coverage",
     "cypress:open": "cypress open",
     "precommit": "yarn run lint && yarn test",
-    "prepush": "yarn run lint"
+    "prepush": "yarn run lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Stefegg",
   "license": "ISC",
@@ -31,6 +33,10 @@
     "@babel/preset-react": "^7.7.0",
     "@babel/register": "^7.7.0",
     "@babel/runtime": "^7.7.1",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-links": "^5.2.5",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/react": "^5.2.5",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",

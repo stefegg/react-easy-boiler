@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Sidebar from '../components/Sidebar';
 
 const Container = styled.div`
     display: flex;
@@ -43,6 +44,7 @@ const App = () => (
                 </span>{' '}
                 Easy Lad
             </Title>
+            <Sidebar/>
             <Paragraph>No one likes lightning anyway.</Paragraph>
             <Paragraph>
                 GFY
