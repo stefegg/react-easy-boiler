@@ -41,14 +41,11 @@ const App = () => (
                 <span role="img" aria-label="Bolt">
                     ⚡
                 </span>{' '}
-                React Bolt
+                Easy Lad
             </Title>
-            <Paragraph>The most simple and robust React boilerplate.</Paragraph>
+            <Paragraph>No one likes lightning anyway.</Paragraph>
             <Paragraph>
-                Read the article{' '}
-                <Link href="https://medium.freecodecamp.org/a-complete-react-boilerplate-tutorial-from-zero-to-hero-20023e086c4a" target="_blank">
-                    here.
-                </Link>
+                GFY
             </Paragraph>
         </Wrapper>
     </Container>
