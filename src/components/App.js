@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Sidebar from '../components/Sidebar';
 
 const Container = styled.div`
     display: flex;
@@ -30,20 +31,14 @@ const Paragraph = styled.p`
     font-size: 1rem;
 `;
 
-const Link = styled.a`
-    color: #00a8e8;
-`;
 
 const App = () => (
     <Container>
         <Wrapper>
+            <Sidebar/>
             <Title>
-                <span role="img" aria-label="Bolt">
-                    ⚡
-                </span>{' '}
-                Easy Lad
+                Practice Round
             </Title>
-            <Paragraph>No one likes lightning anyway.</Paragraph>
             <Paragraph>
                 GFY
             </Paragraph>
