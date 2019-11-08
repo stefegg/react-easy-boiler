@@ -31,21 +31,14 @@ const Paragraph = styled.p`
     font-size: 1rem;
 `;
 
-const Link = styled.a`
-    color: #00a8e8;
-`;
 
 const App = () => (
     <Container>
         <Wrapper>
-            <Title>
-                <span role="img" aria-label="Bolt">
-                    ⚡
-                </span>{' '}
-                Easy Lad
-            </Title>
             <Sidebar/>
-            <Paragraph>No one likes lightning anyway.</Paragraph>
+            <Title>
+                Practice Round
+            </Title>
             <Paragraph>
                 GFY
             </Paragraph>
